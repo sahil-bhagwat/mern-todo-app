@@ -1,0 +1,92 @@
+🚀 PROJECT: MERN ToDo Application
+
+📅 Date: 16 January 2026
+
+🧩 1. FRONTEND BUILD LOG
+cd frontend
+npm install
+npm run dev
+npm run build
+
+
+Result
+
+✔ Node modules installed
+
+✔ Vite dev server started
+
+✔ Production build completed
+
+✔ dist/ folder generated
+
+✔ No build errors
+
+🖥️ 2. BACKEND SERVER LOG
+cd backend
+npm install
+npm install bcrypt jsonwebtoken dotenv  
+npm start
+
+
+Result
+
+✔ MongoDB connection established
+
+✔ Server running on port 3200
+
+✔ API endpoints active
+
+✔ JWT authentication enabled
+
+✔ Cookie-based sessions working
+
+🔐 3. SECURITY & CONFIGURATION
+🔧 Security Modules Used
+
+bcrypt → secure password hashing
+
+jsonwebtoken (JWT) → authentication & authorization
+
+dotenv → environment variable management
+
+📦 Install Commands
+
+Run inside the backend folder:
+
+npm install bcrypt jsonwebtoken dotenv
+
+
+Environment Variables (.env)
+
+MONGO_URI
+JWT_SECRET
+PORT
+
+
+.env file is excluded from version control for security.
+
+⚙️ 4. APPLICATION FEATURES
+
+User Signup & Login
+
+Secure password hashing
+
+JWT-based authentication
+
+Cookie-based session handling
+
+Task CRUD (Create, Read, Update, Delete)
+
+User profile update
+
+Protected routes
+
+Production-ready frontend build
+
+✅ 5. FINAL STATUS
+System Component	Status
+Frontend Build	✔ Successful
+Backend Server	✔ Running
+Database	✔ Connected
+Authentication	✔ Working
+Features	✔ Tested

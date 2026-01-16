@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #242424;
+  padding: 8px 16px;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #bfbcbc;
+}
+
+/* User profile mini */
+.user-mini-profile {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  text-align: right;
+}
+
+.user-name {
+  font-weight: bold;
+  align-items: start;
+}
+
+.user-email {
+  color: #9a2222;
+  font-weight: bold;
+}
+.profile-hover-box {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  min-width: 300px;
+}
