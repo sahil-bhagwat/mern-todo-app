@@ -3,8 +3,8 @@ import dotenv from "dotenv";
 
 dotenv.config(); //
 
-const dbName = "mynewdb";
-export const collectionName = "todo";
+const dbName = "backend-project";
+export const collectionName = "database";
 
 
 
